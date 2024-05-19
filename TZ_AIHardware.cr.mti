@@ -1,15 +1,15 @@
-C:/personal/TZ_AIHardware/tb/tb_adder_fp.sv {2 {vlog -work work -sv +incdir+C:/personal/TZ_AIHardware/rtl +incdir+C:/personal/TZ_AIHardware/lib/HardFloat-1/source/RISCV +incdir+C:/personal/TZ_AIHardware/lib/HardFloat-1/source +incdir+C:/personal/TZ_AIHardware/lib -stats=none C:/personal/TZ_AIHardware/tb/tb_adder_fp.sv
+C:/personal/TZ_RTL_AIHardware/tb/tb_adder_fp.sv {2 {vlog -work work -sv +incdir+C:/personal/TZ_RTL_AIHardware/rtl +incdir+C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1/source/RISCV +incdir+C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1/source +incdir+C:/personal/TZ_RTL_AIHardware/lib -stats=none C:/personal/TZ_RTL_AIHardware/tb/tb_adder_fp.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module addRecFNToRaw
 -- Compiling module addRecFN
 -- Compiling module adder_fp
-** Warning: ** while parsing file included at C:/personal/TZ_AIHardware/tb/tb_adder_fp.sv(2)
-** while parsing file included at C:/personal/TZ_AIHardware/lib/HardFloat-1.vi(1)
-** at C:/personal/TZ_AIHardware/lib/HardFloat-1/source/addRecFN.v(44): (vlog-2275) 'addRecFNToRaw' already exists and will be overwritten.
+** Warning: ** while parsing file included at C:/personal/TZ_RTL_AIHardware/tb/tb_adder_fp.sv(2)
+** while parsing file included at C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1.vi(1)
+** at C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1/source/addRecFN.v(44): (vlog-2275) 'addRecFNToRaw' already exists and will be overwritten.
 -- Compiling module addRecFNToRaw
-** Warning: ** while parsing file included at C:/personal/TZ_AIHardware/tb/tb_adder_fp.sv(2)
-** while parsing file included at C:/personal/TZ_AIHardware/lib/HardFloat-1.vi(1)
-** at C:/personal/TZ_AIHardware/lib/HardFloat-1/source/addRecFN.v(205): (vlog-2275) 'addRecFN' already exists and will be overwritten.
+** Warning: ** while parsing file included at C:/personal/TZ_RTL_AIHardware/tb/tb_adder_fp.sv(2)
+** while parsing file included at C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1.vi(1)
+** at C:/personal/TZ_RTL_AIHardware/lib/HardFloat-1/source/addRecFN.v(205): (vlog-2275) 'addRecFN' already exists and will be overwritten.
 -- Compiling module addRecFN
 -- Compiling module recFNToRawFN
 -- Compiling module roundAnyRawFNToRecFN
