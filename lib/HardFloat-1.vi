@@ -1,0 +1,7 @@
+`include "addRecFN.v"
+`include "HardFloat_rawFN.v"
+`include "isSigNaNRecFN.v"
+`include "HardFloat_primitives.v"
+
+`include "fNToRecFN.v"
+`include "recFNToFN.v"
